@@ -1,11 +1,12 @@
 import React from 'react'
+import { Icon } from "../assets/pokemonIcon";
+
 
 const Header = () => {
     return (
-        <header>
-            <h2 className="text-5xl font-bold text-black-800 text-center py-8 mx-auto bg-yellow-300"> Pokemon Api Test
-            </h2>
-        </header>
+        <nav className="flex  justify-around items-center h-40 bg-yellow-300 font-bold text-2xl">
+             <Icon  />
+        </nav>
     )
 }
 
