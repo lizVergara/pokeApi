@@ -15,7 +15,7 @@ function PokeCard({id,name,img,types})
   }
     return (
       <>
-      <div className="w-30 rounded-2xl bg-blue-100 shadow-sm px-5 py-5 flex flex-col items-center justify-between shadow-sky-700 " onClick={infoPokemon}>
+      <div className="w-30 rounded-2xl bg-blue-100 shadow-sm px-5 py-5 flex flex-col items-center justify-between shadow-sky-700 transform transition-transform duration-300 hover:scale-105 cursor-pointer " onClick={infoPokemon}>
         <h2 className="text-black font-bold mb-2"># {id}</h2>
         <img src={img} alt={name} className="w-full max-h-36 object-contain mb-2" />
         <h1 className="text-black font-bold text-center capitalize text-lg">{name}</h1>
