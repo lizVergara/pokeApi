@@ -49,6 +49,7 @@ const Modal = ({setModal, modal, idPokemon}) => {
         </div>
         )}
 
+
     </>
     
   )
